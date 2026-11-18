@@ -22,7 +22,7 @@ function generateMenu()
                 <!-- Menu Github -->
                 <li class="dropdown2">
                     <a href="#">Github</a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu2">
                         <li><a href="https://github.com/AKrawczyk/SNACBox" target="_blank" rel="noopener noreferrer"">SNACBox</a></li>
                         <li><a href="https://github.com/AKrawczyk/Memorable-Password-Generators" target="_blank" rel="noopener noreferrer"">Memorable Password Generators</a></li>
                     </ul>
@@ -31,7 +31,7 @@ function generateMenu()
                 <!-- Menu Help -->
                 <li class="dropdown3">
                     <a href="#">Help</a>
-                    <ul class="dropdown-menu2">
+                    <ul class="dropdown-menu3">
                         <li><a href="info.html">About</a></li>
                     </ul>
                 </li>
