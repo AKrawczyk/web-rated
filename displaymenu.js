@@ -20,7 +20,7 @@ function generateMenu()
                 </li>
 
                 <!-- Menu Github -->
-                <li class="dropdown">
+                <li class="dropdown2">
                     <a href="#">Github</a>
                     <ul class="dropdown-menu">
                         <li><a href="https://github.com/AKrawczyk/SNACBox" target="_blank" rel="noopener noreferrer"">SNACBox</a></li>
@@ -29,7 +29,7 @@ function generateMenu()
                 </li>
 
                 <!-- Menu Help -->
-                <li class="dropdown2">
+                <li class="dropdown3">
                     <a href="#">Help</a>
                     <ul class="dropdown-menu2">
                         <li><a href="info.html">About</a></li>
