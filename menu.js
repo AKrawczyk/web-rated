@@ -23,11 +23,11 @@ dropdown2.addEventListener('click', () => {
 });
 
 // Sub Menu 1 Display
-//dropdown3.addEventListener('click', () => {
-  //dropdown3.classList.toggle('active');
-  //dropdownMenu3.style.display = dropdown3.classList.contains('active') ? 'block' : 'none';
-  //navLinks.classList.remove('active');
-//});
+dropdown3.addEventListener('click', () => {
+  dropdown3.classList.toggle('active');
+  dropdownMenu3.style.display = dropdown3.classList.contains('active') ? 'block' : 'none';
+  navLinks.classList.remove('active');
+});
 
 // Sub Menus remove display
 document.addEventListener('click', (event) => {
@@ -44,11 +44,17 @@ document.addEventListener('click', (event) => {
     dropdown2.classList.remove('active');
     dropdownMenu2.style.display = 'none';
   }
+
+  
+  if (!event.target.matches('.dropdown3, .dropdown3 *')) {
+    dropdown3.classList.remove('active');
+    dropdownMenu3.style.display = 'none';
+  }
 });
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.burger-menu, .dropdown, .dropdown *, .dropdown2, .dropdown2 *')) {
+  if (!event.target.matches('.burger-menu, .dropdown, .dropdown *, .dropdown2, .dropdown2 *, .dropdown3, .dropdown3 *')) {
     BrowserResize();
   }
 }
