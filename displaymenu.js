@@ -9,16 +9,22 @@ function generateMenu()
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
 
-                <!-- Menu Password Tools -->
+                <!-- Menu Products -->
                 <li class="dropdown">
-                    <a href="#">Tools</a>
+                    <a href="#">Products</a>
                     <ul class="dropdown-menu">
-                        <li><a href="mpg.html">Memorable Password Generator</a></li>
-                        <li><a href="rpg.html">Random Password Generator</a></li>
-                        <li><a href="pwdtester.html">Password Tester</a></li>
-                        <li><a href="pg.html">PIN Generator</a></li>
-                        <li><a href="/PassGame/passwordGame.html">Password Mastery Game</a></li>
-                        <li><a href="https://neal.fun/password-game/" target="_blank" rel="noopener noreferrer"">Fun Password Game</a></li>
+                        <li><a href="https://snacbox.web-rated.ie" target="_blank" rel="noopener noreferrer"">SNACBox</a></li>
+                        <li><a href="https://passwordtools.web-rated.ie" target="_blank" rel="noopener noreferrer"">Password Tools</a></li>
+                        <li><a href="https://passwordtools.web-rated.ie/PassGame/passwordGame.html" target="_blank" rel="noopener noreferrer"">Password Mastery Game</a></li>
+                    </ul>
+                </li>
+
+                <!-- Menu Github -->
+                <li class="dropdown">
+                    <a href="#">Github</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://github.com/AKrawczyk/SNACBox" target="_blank" rel="noopener noreferrer"">SNACBox</a></li>
+                        <li><a href="https://github.com/AKrawczyk/Memorable-Password-Generators" target="_blank" rel="noopener noreferrer"">Memorable Password Generators</a></li>
                     </ul>
                 </li>
 
@@ -27,8 +33,6 @@ function generateMenu()
                     <a href="#">Help</a>
                     <ul class="dropdown-menu2">
                         <li><a href="info.html">About</a></li>
-                        <li><a href="secinfo.html">Infromation</a></li>
-                        <li><a href="pininfo.html">PIN Chart</a></li>
                     </ul>
                 </li>
             </ul>
@@ -37,7 +41,7 @@ function generateMenu()
         <div class="logo">
             <div class="logo1"><img src="web-rated.png" height="32" width="32"></div>
             <div class="logo2">
-                <h3 class="logo2_1">Web-Rated Password Tools</h3>
+                <h3 class="logo2_1">Web-Rated Internet Safty Tools</h3>
             </div>
         </div>`;
     return menuHTML;
