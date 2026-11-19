@@ -13,9 +13,8 @@ function generateMenu()
                 <li class="dropdown">
                     <a href="#">Products</a>
                     <ul class="dropdown-menu">
-                        <li><a href="https://snacbox.web-rated.ie" target="_blank" rel="noopener noreferrer"">SNACBox</a></li>
+                        <li><a href="https://snacbox.web-rated.ie">SNACBox</a></li>
                         <li><a href="https://passwordtools.web-rated.ie" target="_blank" rel="noopener noreferrer"">Password Tools</a></li>
-                        <li><a href="https://passwordtools.web-rated.ie/PassGame/passwordGame.html" target="_blank" rel="noopener noreferrer"">Password Mastery Game</a></li>
                     </ul>
                 </li>
 
