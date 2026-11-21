@@ -40,7 +40,7 @@ function generateMenu()
         <div class="logo">
             <div class="logo1"><img src="web-rated.png" height="32" width="32"></div>
             <div class="logo2">
-                <h3 class="logo2_1">Web-Rated Internet Safty Tools</h3>
+                <h3 class="logo2_1">Web Rated - Safe Internet Usage</h3>
             </div>
         </div>`;
     return menuHTML;
